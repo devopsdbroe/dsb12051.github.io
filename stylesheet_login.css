@@ -1,0 +1,83 @@
+body {
+	background:url(lightning.jpg)no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	width: 800px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 5em;
+	color: #FFFFFF;
+}
+
+#container {
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	border: 2px solid black;
+	background-color: gray;
+}
+
+input#txtEmail {
+	width: 200px;
+	margin-top: 45px;
+	margin-left: 155px;
+}
+
+input#txtPassword {
+	width: 200px;
+	margin-top: 0px;
+	margin-left: 155px;
+}
+
+button#btnLogin {
+	width: 65px;
+}
+
+button#reset {
+	width: 65px;
+}
+
+button#btnSignUp {
+	width: 100px;
+}
+
+#position1 {
+	position: absolute;
+	top: 125px;
+	bottom: 0px;
+	left: 185px;
+	right: 0px;
+}
+
+#position2 {
+	position: absolute;
+	top: 125px;
+	bottom: 0px;
+	left: 265px;
+	right: 0px;
+	margin: auto;
+}
+
+#position3 {
+	position: absolute;
+	top: 155px;
+	bottom: 0px;
+	left: 210px;
+	right: 0px;
+	margin: auto;
+}

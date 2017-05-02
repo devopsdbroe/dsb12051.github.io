@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JD Weather Station Login</title>
+	<link rel="stylesheet" href="stylesheet_login.css">
+	<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+	<script>
+		function clearFields() {
+			document.getElementById("txtEmail").value = '';
+			document.getElementById("txtPassword").value = '';
+		}
+	</script>
+</head>
+<body>
+	<h1>Configuration Page Login</h1>
+	<div id="container">
+		<input id="txtEmail" type="email" placeholder="Email"><br />
+		<br />
+		<input id="txtPassword" type="password" placeholder="Password">
+		
+		<div id="position1"><button id="btnLogin" class="btn btn-action">Login</button></div>
+		
+		<div id="position2"><button id="reset" onclick="clearFields()">Reset</button></div>
+	</div>
+	<script src="app_conf.js"></script>
+</body>
+</html>
